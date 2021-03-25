@@ -1,13 +1,75 @@
 body{
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 900px;
+  margin: auto;
 }
 header{
-
   margin-top: 8%;
 }
-.log{
-  margin-top: %;
-  margin-left: 6%;
+.tab{
+  border-width:5px;  
+  border-style:dashed;
+  margin-top: 3%;
 }
+
+.img2{ 
+  float: right;
+  position: absolute; right: 21.4%; top: 90px;
+}
+.img1{
+  float: left;
+  margin-bottom: 3%;
+}
+.h1{
+  margin-left: 50px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 220%;
+}
+.h6{
+  margin-left: 50px;
+  font-size: 60%;
+}
+.text{
+margin-right: 50px;
+}
+.sp{
+  margin-right: 8px;
+}
+/* .line{
+  /* width: 100%; */
+/* } */ 
+
+.mainh1{
+  font-size:300%;
+  margin-top: 10%;
+}
+.mainh5{
+  margin-top: 1%;
+  margin-bottom: 6%;
+}
+.print{
+  float: right;
+  width: 2.5%;
+  margin-bottom: 3%;
+}
+div{
+  float: right;
+}
+.bigimg{
+  margin-bottom: 3%;
+  /* margin-left: 7%; */
+}
+hr{
+  border: 1rem solid;
+  border-radius: 5px;
+  margin-top: 7%;
+}
+.container{
+  margin-top: 5%;
+  background-image: url(../img/list-bg.png);
+
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 
