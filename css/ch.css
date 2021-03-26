@@ -5,11 +5,11 @@ body{
 header{
   margin-top: 8%;
 }
-.tab{
+/* .tab{
   border-width:5px;  
   border-style:dashed;
   margin-top: 3%;
-}
+} */
 
 .img2{ 
   float: right;
@@ -29,7 +29,7 @@ header{
   font-size: 60%;
 }
 .text{
-margin-right: 50px;
+/* margin-right: 50px; */
 }
 .sp{
   margin-right: 8px;
@@ -39,12 +39,13 @@ margin-right: 50px;
 /* } */ 
 
 .mainh1{
+  font-family: 'Merriweather Sans', sans-serif;
   font-size:300%;
-  margin-top: 10%;
+  margin-top: 4%;
 }
 .mainh5{
   margin-top: 1%;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
 }
 .print{
   float: right;
@@ -58,18 +59,89 @@ div{
   margin-bottom: 3%;
   /* margin-left: 7%; */
 }
-hr{
-  border: 1rem solid;
-  border-radius: 5px;
+.nop{
+  
+    clear: both;
+    display: block;
+    border: none;
+    height: 10px;
+    background-image: url(../img/hr-img.png);
+}
+.list{
   margin-top: 7%;
 }
-.container{
-  margin-top: 5%;
-  background-image: url(../img/list-bg.png);
-
-  position: relative;
-  text-align: center;
-  color: white;
+p{
+  font-size: 18px;
 }
 
+.lp{
+  position: absolute;
+  top: 1275px;
+  left: 27%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(90, 82, 82);
+}
 
+.rp{
+  position: absolute;
+  top: 1275px;
+  left: 50%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(90, 82, 82);
+}
+/* footer  */
+
+.fimg{
+  position: absolute;
+  left:400px;
+  top: 1630px;
+}
+
+.h1fot{
+  position: absolute;
+  left:480px;
+  top: 1630px;
+  font-size: 23px;
+  font-style: bold;
+}
+.h4fot{
+  position: absolute;
+  left:490px;
+  top: 1665px;
+  font-size: 16px;
+  margin-right:20%;
+}
+.fhr{
+  margin-top: 20%;
+  margin-bottom: 7%;
+}
+.bot{
+  background-color: #a7402d; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  right: 330px;
+  top: 1700px;
+}
+.logo{
+  position: absolute;
+  right: 50%;
+  top: 1750px;
+}
+.final{
+  position: absolute;
+  top: 1800px;
+  text-align: center;
+  right: 42%;
+
+}
+footer{
+  margin-bottom: 10%;
+}
