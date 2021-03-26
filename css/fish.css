@@ -37,11 +37,6 @@ main{
   margin-left: 300px;
   margin-top: 50px;
 }
-
-
-
-
-
 footer{
   padding: 10px;
   background-color: rgb(78, 10, 10);
@@ -83,14 +78,11 @@ footer{
   margin-left: 25%;
 
 }
-
-
 table {
   width: 50%;
   margin: 2%;
   min-width: 1000px;
 }
-
 table, td,th{
   border-style: solid;
   border-color: rgb(78, 10, 10) ;
@@ -104,4 +96,98 @@ table, td,th{
   font-weight: bold;
   color: rgb(255, 225, 187);
   margin-bottom: 3%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 250px;
+  font-size: 20px;
+  /* right: 30x; */
+}
+.q{
+  position: absolute;
+  bottom: 215px;
+  font-size: 20px;
+  /* right: 30x; */
+}
+.a{
+  position: absolute;
+  bottom: 185px;
+  font-size: 20px;
+  /* right: 30x; */
+}
+.z{
+  position: absolute;
+  bottom: 155px;
+  font-size: 20px;
+  /* right: 30x; */
+}
+.w{
+  position: absolute;
+  bottom: 125px;
+  /* right: 30x; */
+  font-size: 20px;
+}
+.s{
+  position: absolute;
+  bottom: 95px;
+  /* right: 30x; */
+  font-size: 20px;
+}
+.bottom-lefta{
+  /* position: absolute; */
+  /* bottom: 133px; */
+  right: 50x;
+  margin-left: 500px;
+}
+
+/* .........*/
+
+.ll{
+  margin-right: 650px;
+}
+
+
+.o1{
+  position: absolute;
+  bottom: 250px;
+  font-size: 20px;
+}
+.o{
+  position: absolute;
+  bottom: 215px;
+  font-size: 20px;
+ 
+  /* right: 30x; */
+}
+.i{
+  position: absolute;
+  bottom: 282px;
+  font-size: 20px;
+  /* right: 30x; */
+}
+.u{
+  position: absolute;
+  bottom: 185px;
+  /* right: 30x; */
+  font-size: 20px;
+}
+.y{
+  position: absolute;
+  bottom: 150px;
+  /* right: 30x; */
+  font-size: 20px;
+}
+.bottom-leftp{
+  position: absolute;
+  bottom: 90px;
+  /* right: 30x; */
+  font-size: 20px;
 }
